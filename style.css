@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.blackback{
+    background-color: black;
+    display: flex;
+    height: 100px;
+    color: white;
+    align-items: center;
+}
+#proftext{
+    font-size: 40px;
+    margin-left: 350px;
+}
+.navlinks{
+    display: inline-flex;
+    align-items: center;
+    list-style: none;
+}
+#home{
+    margin-left: 100px;
+}
+#myprof{
+    margin-left: 25px;
+    font-size: 20px;
+}
+#findco{
+    margin-left: 25px;
+}
+#btn{
+    background-color: darkcyan;
+    height: 32px;
+    width: 95px;
+    margin-left: 600px;
+    color: white;
+    font-weight: bolder;
+}
+#proftext, #myprof{
+    color: white;
+}
+#home, #findco{
+    color: lightgray;
+}
+/* TODO LO DE ARRIBA ES LA BARRA DE NAVEGACIÓN */   
+
+.profcont{
+    background-color: white;
+    width: 600px;
+    padding: 30px 30px 400px;
+    display: flex;
+    position: relative;
+    top: 40px;
+    left: 350px;
+    border: 2px solid gray;
+}
+.profsubcont{
+    background-color: darkcyan;
+    height: 130px;
+    width: 660px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.janepic{
+    height: 125px;
+    position: absolute;
+    border-radius: 50%;
+    border: 4px solid gray;
+    top: 60px;
+}
+.jane{
+    position: absolute;
+    top: 195px;
+    left: 40px;
+    font-weight: normal;
+    font-size: 40px;
+}
+.ubi{
+    display: flex;
+    display: inline-flex;
+    position: absolute;
+    top: 260px;
+}
+.map{
+    height: 20px;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+.city{
+    margin-left: 20px;
+    font-weight: normal;
+}
+.desc{
+    position: absolute;
+    top: 310px;
+    left: 40px;
+    font-size: 22px;
+}
+.gear{
+    height: 25px;
+    margin-left: 3px;
+    margin-right: 15px;
+}
+.geadit{
+    position: relative;
+    display: inline-flex;
+    top: 360px;
+    font-size: 21px;
+    text-decoration: underline;
+    color: royalblue;
+}
+
+/* TODO LO DE ARRIBA ES LO DE JANE */
+
+.requestcont{
+    position: relative;
+    background-color: white;
+    display: flex;
+    height: 250px;
+    width: 330px;
+    border: 2px solid gray;
+    left: 1100px;
+    bottom: 423.5px;
+}
+.circlequest{
+    position: relative;
+    background-color: black;
+    height: 80px;
+    width: 330px;
+    display: flex;
+    align-items: center;
+}
+.notiquest{
+    background-color: gray;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 0px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+}
+.conec{
+    color: white;
+    display: flex;
+    margin-left: 20px;
+    font-size: 25px;
+}
+.todd{
+    position: absolute;
+    height: 50px;
+    border-radius: 50%;
+    right: 265px;
+    top: 100px;
+}
+.phil{
+    position: absolute;
+    height: 50px;
+    border-radius: 50%;
+    right: 265px;
+    top: 180px;
+}
+.tick{
+    position: absolute;
+    height: 45px;
+    border-radius: 50%;
+    top: 185px;
+    right: 70px;
+}
+.cross{
+    position: absolute;
+    height: 45px;
+    border-radius: 50%;
+    top: 185px;
+    right: 10px;
+}
+.tick1{
+    position: absolute;
+    height: 45px;
+    border-radius: 50%;
+    top: 100px;
+    right: 70px;
+}
+.cross1{
+    position: absolute;
+    height: 45px;
+    border-radius: 50%;
+    top: 100px;
+    right: 10px;
+}
+.tode{
+    position: absolute;
+    top: 110px;
+    left: 90px;
+    font-size: 25px;
+}
+.philk{
+    position: absolute;
+    top: 185px;
+    left: 90px;
+    font-size: 25px;
+}
+/* TODO LO DE ARRIBA ES CONNECTION REQUESTS */
+
+.yourcont{
+    position: absolute;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    height: 480px;
+    width: 330px;
+    border: 2px solid gray;
+    left: 1100px;
+    top: 450px;
+}
+.yourback{
+    position: relative;
+    background-color: black;
+    height: 80px;
+    width: 330px;
+    display: flex;
+    align-items: center;
+}
+.notinec{
+    background-color: gray;
+    height: 40px;
+    width: 80px;
+    border-radius: 50%;
+    margin-top: 0px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+}
+.youco{
+    color: white;
+    display: flex;
+    margin-left: 20px;
+    font-size: 25px;
+}
+.adrien{
+    position: absolute;
+    height: 50px;
+    border-radius: 50%;
+    right: 265px;
+    top: 100px;
+}
+.anne{
+    position: absolute;
+    height: 50px;
+    border-radius: 50%;
+    right: 265px;
+    top: 175px;
+}
+.alayne{
+    position: absolute;
+    height: 50px;
+    border-radius: 50%;
+    right: 265px;
+    top: 250px;
+}
+.arry{
+    position: absolute;
+    height: 50px;
+    border-radius: 50%;
+    right: 265px;
+    top: 325px;
+}
+.adriend{
+    position: absolute;
+    top: 110px;
+    left: 90px;
+    font-size: 25px;
+}
+.annej{
+    position: absolute;
+    top: 185px;
+    left: 90px;
+    font-size: 25px;
+}
+.alaynet{
+    position: absolute;
+    top: 265px;
+    left: 90px;
+    font-size: 25px;
+}
+.arryt{
+    position: absolute;
+    top: 335px;
+    left: 90px;
+    font-size: 25px;
+}
+.botback{
+    position: absolute;
+    background-color: white;
+    top: 400px;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    height: 78px;
+    width: 330px;
+    display: flex;
+    align-items: center;
+}
+.view{
+    margin-left: 10px;
+    font-size: 22px;
+    text-decoration: underline;
+    color: royalblue;
+}
+.educont{
+    background-color: white;
+    width: 660px;
+    height: 307px;
+    display: flex;
+    position: absolute;
+    top: 660px;
+    left: 350px;
+    border: 2px solid gray;
+    border-bottom: none;
+}
+.edusubcont{
+    position: relative;
+    background-color: black;
+    height: 80px;
+    width: 660px;
+    display: flex;
+    align-items: center;
+}
+.edutext{
+    color: white;
+    margin-left: 60px;
+    font-size: 30px;
+}
+.edudes{
+    position: absolute;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 60px;
+}
+.cod{
+    margin-top: 10px;
+    font-size: 33px;
+    font-weight: lighter;
+}
+.date{
+    position: absolute;
+    top: 70px;
+    right: 264px; 
+    font-size: 25px;
+    color: dimgrey;
+}
+.triple{
+    margin-top: 100px;
+    margin-right: 25px;
+    font-size: 25px;
+    font-weight: lighter;
+}
+a{
+    text-decoration: none;
+}
